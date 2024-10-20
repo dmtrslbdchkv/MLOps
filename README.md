@@ -1,5 +1,26 @@
 # MLOps_LR
 
+## Установка окружения
+
+1. Создать виртуальное окружение:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Для Linux/Mac
+   venv\Scripts\activate  # Для Windows
+   ```
+2. Установить зависимости из requirements.txt:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Установить pre-commit:
+   ```bash
+   pre-commit install
+   ```
+4. Запуск ручной проверки проекта (опционально):
+   ```bash
+   pre-commit run --all-files
+   ```
+
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
@@ -26,7 +47,7 @@ A short description of the project.
 │                         the creator's initials, and a short `-` delimited description, e.g.
 │                         `1.0-jqp-initial-data-exploration`.
 │
-├── pyproject.toml     <- Project configuration file with package metadata for 
+├── pyproject.toml     <- Project configuration file with package metadata for
 │                         MLOps_LR02 and configuration for tools like black
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
@@ -49,13 +70,12 @@ A short description of the project.
     │
     ├── features.py             <- Code to create features for modeling
     │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
+    ├── modeling
+    │   ├── __init__.py
+    │   ├── predict.py          <- Code to run model inference with trained models
     │   └── train.py            <- Code to train models
     │
     └── plots.py                <- Code to create visualizations
 ```
 
 --------
-
