@@ -1,32 +1,23 @@
-[build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
-
-[project]
+[tool.poetry]
 name = "MLOps_LR02"
-version = "0.0.1"
-description = "A short description of the project."
-authors = [
-  { name = "Slobodchikov Dmitry" },
-]
-
+version = "0.1.0"
+description = ""
+authors = ["Slobodchikov Dmitry"]
 readme = "README.md"
-classifiers = [
-    "Programming Language :: Python :: 3",
 
-]
-requires-python = "~=3.10"
+[tool.poetry.dependencies]
+python = "^3.8"
+black = "24.8.0"
+flake8 = "5.0.4"
+mypy = "1.11.2"
+isort = "5.13.2"
+pre-commit = "3.5.0"
+python-dotenv = "1.0.1"
+pandas = "2.0.3"
+s3cmd = "^2.4.0"
+boto3 = "^1.35.49"
 
-[tool.black]
-line-length = 99
-include = '\.pyi?$'
-exclude = '''
-/(
-    \.git
-  | \.venv
-)/
-'''
 
-[tool.ruff.lint.isort]
-known_first_party = ["MLOps_LR02"]
-force_sort_within_sections = true
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
