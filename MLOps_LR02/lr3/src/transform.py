@@ -1,11 +1,11 @@
-import pandas as pd
 import sys
+import pandas as pd
 
 
 def clean(input_path, output_path):
     pre_df = pd.read_csv(input_path)
-    new_df = pre_df.drop('price', axis=1)
-    new_df.to_csv(output_path, index=False)
+    df_cleaned = pre_df.drop('numVotes', axis=1)
+    df_cleaned.to_csv(output_path, index=False)
 
 
 if __name__ == "__main__":

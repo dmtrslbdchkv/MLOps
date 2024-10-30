@@ -1,24 +1,27 @@
 # MLOps_LR
 
-## Установка окружения
+## Установка
 
-1. Создать виртуальное окружение:
+1. Установить зависимости через Poetry:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # Для Linux/Mac
-   venv\Scripts\activate  # Для Windows
+   poetry install
    ```
-2. Установить зависимости из requirements.txt:
+2. Запустить контейнер Docker с minio:
    ```bash
-   pip install -r requirements.txt
+   docker compose up -d          
    ```
-3. Установить pre-commit:
+3. Установить права доступа:
+   ```bash
+   chmod +x MLOps_LR02/lr3/shell/*.sh pipeline.sh
+   ```
+4. Установка pre-commit:
    ```bash
    pre-commit install
    ```
-4. Запуск ручной проверки проекта (опционально):
+   
+5. Запустить pipeline.sh:
    ```bash
-   pre-commit run --all-files
+   ./pipeline.sh
    ```
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
