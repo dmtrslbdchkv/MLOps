@@ -1,21 +1,18 @@
 [tool.poetry]
-name = "MLOps_LR02"
+name = "mlops-lr02"
 version = "0.1.0"
 description = ""
-authors = ["Slobodchikov Dmitry"]
+authors = ["Dmitry Slobodchikov <dmitryslo@yandex.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.12"
 black = "24.8.0"
 flake8 = "5.0.4"
 mypy = "1.11.2"
-isort = "5.13.2"
 pre-commit = "3.5.0"
-python-dotenv = "1.0.1"
-pandas = "2.0.3"
-s3cmd = "^2.4.0"
-boto3 = "^1.35.49"
+pandas = "1.5.3"
+numpy= "1.26.4"
 
 
 [build-system]
