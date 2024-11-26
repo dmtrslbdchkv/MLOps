@@ -1,0 +1,4 @@
+grid_search:
+  DecisionTreeClassifier:
+    max_depth: [None, 6]
+    max_features: ['auto', 'sqrt', 'log2']
