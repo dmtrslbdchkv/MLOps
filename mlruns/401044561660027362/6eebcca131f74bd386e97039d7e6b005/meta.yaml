@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dmitry/projects/python/MLOps/mlruns/401044561660027362/6eebcca131f74bd386e97039d7e6b005/artifacts
+end_time: 1732619307149
+entry_point_name: ''
+experiment_id: '401044561660027362'
+lifecycle_stage: active
+run_id: 6eebcca131f74bd386e97039d7e6b005
+run_name: Decision Tree
+run_uuid: 6eebcca131f74bd386e97039d7e6b005
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732619302061
+status: 3
+tags: []
+user_id: dmitry

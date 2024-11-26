@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dmitry/projects/python/MLOps/mlruns/0/406bc2b414e14e0ab2631d1b70d2baba/artifacts
+end_time: 1732612652511
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 406bc2b414e14e0ab2631d1b70d2baba
+run_name: youthful-rook-541
+run_uuid: 406bc2b414e14e0ab2631d1b70d2baba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732612651652
+status: 4
+tags: []
+user_id: dmitry

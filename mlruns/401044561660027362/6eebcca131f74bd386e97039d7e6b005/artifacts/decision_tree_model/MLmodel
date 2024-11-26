@@ -1,0 +1,197 @@
+artifact_path: decision_tree_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.18.0
+model_size_bytes: 9072
+model_uuid: 220a7e3a3cfa47bdbe343e3185dc68c0
+run_id: 6eebcca131f74bd386e97039d7e6b005
+signature:
+  inputs: '[{"type": "long", "name": "numVotes", "required": true}, {"type": "long",
+    "name": "releaseYear", "required": true}, {"type": "long", "name": "genres_Action",
+    "required": true}, {"type": "long", "name": "genres_Action, Adventure, Animation",
+    "required": true}, {"type": "long", "name": "genres_Action, Adventure, Biography",
+    "required": true}, {"type": "long", "name": "genres_Action, Adventure, Comedy",
+    "required": true}, {"type": "long", "name": "genres_Action, Adventure, Drama",
+    "required": true}, {"type": "long", "name": "genres_Action, Adventure, Fantasy",
+    "required": true}, {"type": "long", "name": "genres_Action, Adventure, Sci-Fi",
+    "required": true}, {"type": "long", "name": "genres_Action, Animation, Comedy",
+    "required": true}, {"type": "long", "name": "genres_Action, Animation, Crime",
+    "required": true}, {"type": "long", "name": "genres_Action, Animation, Drama",
+    "required": true}, {"type": "long", "name": "genres_Action, Animation, Fantasy",
+    "required": true}, {"type": "long", "name": "genres_Action, Comedy", "required":
+    true}, {"type": "long", "name": "genres_Action, Comedy, Crime", "required": true},
+    {"type": "long", "name": "genres_Action, Comedy, Drama", "required": true}, {"type":
+    "long", "name": "genres_Action, Comedy, Horror", "required": true}, {"type": "long",
+    "name": "genres_Action, Comedy, Sci-Fi", "required": true}, {"type": "long", "name":
+    "genres_Action, Crime, Drama", "required": true}, {"type": "long", "name": "genres_Action,
+    Crime, Mystery", "required": true}, {"type": "long", "name": "genres_Action, Crime,
+    Romance", "required": true}, {"type": "long", "name": "genres_Action, Crime, Thriller",
+    "required": true}, {"type": "long", "name": "genres_Action, Drama", "required":
+    true}, {"type": "long", "name": "genres_Action, Drama, Fantasy", "required": true},
+    {"type": "long", "name": "genres_Action, Drama, History", "required": true}, {"type":
+    "long", "name": "genres_Action, Drama, Horror", "required": true}, {"type": "long",
+    "name": "genres_Action, Drama, Mystery", "required": true}, {"type": "long", "name":
+    "genres_Action, Drama, Romance", "required": true}, {"type": "long", "name": "genres_Action,
+    Drama, Sci-Fi", "required": true}, {"type": "long", "name": "genres_Action, Drama,
+    Thriller", "required": true}, {"type": "long", "name": "genres_Action, Drama,
+    Western", "required": true}, {"type": "long", "name": "genres_Action, Fantasy,
+    Horror", "required": true}, {"type": "long", "name": "genres_Action, Fantasy,
+    Mystery", "required": true}, {"type": "long", "name": "genres_Action, Mystery,
+    Thriller", "required": true}, {"type": "long", "name": "genres_Adventure, Animation,
+    Comedy", "required": true}, {"type": "long", "name": "genres_Adventure, Animation,
+    Drama", "required": true}, {"type": "long", "name": "genres_Adventure, Animation,
+    Family", "required": true}, {"type": "long", "name": "genres_Adventure, Biography,
+    Drama", "required": true}, {"type": "long", "name": "genres_Adventure, Comedy,
+    Crime", "required": true}, {"type": "long", "name": "genres_Adventure, Comedy,
+    Documentary", "required": true}, {"type": "long", "name": "genres_Adventure, Comedy,
+    Drama", "required": true}, {"type": "long", "name": "genres_Adventure, Comedy,
+    Family", "required": true}, {"type": "long", "name": "genres_Adventure, Comedy,
+    Fantasy", "required": true}, {"type": "long", "name": "genres_Adventure, Comedy,
+    Sci-Fi", "required": true}, {"type": "long", "name": "genres_Adventure, Crime,
+    Drama", "required": true}, {"type": "long", "name": "genres_Adventure, Documentary",
+    "required": true}, {"type": "long", "name": "genres_Adventure, Drama, Family",
+    "required": true}, {"type": "long", "name": "genres_Adventure, Drama, Fantasy",
+    "required": true}, {"type": "long", "name": "genres_Adventure, Drama, History",
+    "required": true}, {"type": "long", "name": "genres_Adventure, Drama, Horror",
+    "required": true}, {"type": "long", "name": "genres_Adventure, Drama, Sci-Fi",
+    "required": true}, {"type": "long", "name": "genres_Adventure, Drama, Western",
+    "required": true}, {"type": "long", "name": "genres_Adventure, Family, Fantasy",
+    "required": true}, {"type": "long", "name": "genres_Adventure, Fantasy", "required":
+    true}, {"type": "long", "name": "genres_Adventure, Reality-TV", "required": true},
+    {"type": "long", "name": "genres_Adventure, Sport, Talk-Show", "required": true},
+    {"type": "long", "name": "genres_Animation, Comedy", "required": true}, {"type":
+    "long", "name": "genres_Animation, Comedy, Drama", "required": true}, {"type":
+    "long", "name": "genres_Animation, Comedy, Family", "required": true}, {"type":
+    "long", "name": "genres_Animation, Comedy, Fantasy", "required": true}, {"type":
+    "long", "name": "genres_Animation, Comedy, Music", "required": true}, {"type":
+    "long", "name": "genres_Animation, Comedy, Romance", "required": true}, {"type":
+    "long", "name": "genres_Animation, Comedy, Sci-Fi", "required": true}, {"type":
+    "long", "name": "genres_Animation, Comedy, Short", "required": true}, {"type":
+    "long", "name": "genres_Animation, Comedy, Sport", "required": true}, {"type":
+    "long", "name": "genres_Animation, Comedy, Talk-Show", "required": true}, {"type":
+    "long", "name": "genres_Animation, Crime, Drama", "required": true}, {"type":
+    "long", "name": "genres_Animation, Documentary, History", "required": true}, {"type":
+    "long", "name": "genres_Animation, Drama, Family", "required": true}, {"type":
+    "long", "name": "genres_Animation, Drama, Fantasy", "required": true}, {"type":
+    "long", "name": "genres_Animation, Drama, History", "required": true}, {"type":
+    "long", "name": "genres_Animation, Drama, Horror", "required": true}, {"type":
+    "long", "name": "genres_Animation, Drama, Mystery", "required": true}, {"type":
+    "long", "name": "genres_Animation, Family", "required": true}, {"type": "long",
+    "name": "genres_Animation, Sport, Thriller", "required": true}, {"type": "long",
+    "name": "genres_Biography, Comedy", "required": true}, {"type": "long", "name":
+    "genres_Biography, Comedy, Drama", "required": true}, {"type": "long", "name":
+    "genres_Biography, Crime, Documentary", "required": true}, {"type": "long", "name":
+    "genres_Biography, Crime, Drama", "required": true}, {"type": "long", "name":
+    "genres_Biography, Documentary", "required": true}, {"type": "long", "name": "genres_Biography,
+    Documentary, History", "required": true}, {"type": "long", "name": "genres_Biography,
+    Documentary, Music", "required": true}, {"type": "long", "name": "genres_Biography,
+    Documentary, Sport", "required": true}, {"type": "long", "name": "genres_Biography,
+    Drama", "required": true}, {"type": "long", "name": "genres_Biography, Drama,
+    History", "required": true}, {"type": "long", "name": "genres_Biography, Drama,
+    Music", "required": true}, {"type": "long", "name": "genres_Biography, Drama,
+    Sport", "required": true}, {"type": "long", "name": "genres_Comedy", "required":
+    true}, {"type": "long", "name": "genres_Comedy, Crime", "required": true}, {"type":
+    "long", "name": "genres_Comedy, Crime, Drama", "required": true}, {"type": "long",
+    "name": "genres_Comedy, Crime, Fantasy", "required": true}, {"type": "long", "name":
+    "genres_Comedy, Crime, Mystery", "required": true}, {"type": "long", "name": "genres_Comedy,
+    Crime, Talk-Show", "required": true}, {"type": "long", "name": "genres_Comedy,
+    Documentary", "required": true}, {"type": "long", "name": "genres_Comedy, Documentary,
+    Reality-TV", "required": true}, {"type": "long", "name": "genres_Comedy, Drama",
+    "required": true}, {"type": "long", "name": "genres_Comedy, Drama, Family", "required":
+    true}, {"type": "long", "name": "genres_Comedy, Drama, Fantasy", "required": true},
+    {"type": "long", "name": "genres_Comedy, Drama, History", "required": true}, {"type":
+    "long", "name": "genres_Comedy, Drama, Horror", "required": true}, {"type": "long",
+    "name": "genres_Comedy, Drama, Music", "required": true}, {"type": "long", "name":
+    "genres_Comedy, Drama, Musical", "required": true}, {"type": "long", "name": "genres_Comedy,
+    Drama, Mystery", "required": true}, {"type": "long", "name": "genres_Comedy, Drama,
+    Romance", "required": true}, {"type": "long", "name": "genres_Comedy, Drama, Sport",
+    "required": true}, {"type": "long", "name": "genres_Comedy, Drama, Thriller",
+    "required": true}, {"type": "long", "name": "genres_Comedy, Drama, War", "required":
+    true}, {"type": "long", "name": "genres_Comedy, Family", "required": true}, {"type":
+    "long", "name": "genres_Comedy, Family, Horror", "required": true}, {"type": "long",
+    "name": "genres_Comedy, Family, Musical", "required": true}, {"type": "long",
+    "name": "genres_Comedy, Family, Talk-Show", "required": true}, {"type": "long",
+    "name": "genres_Comedy, Fantasy", "required": true}, {"type": "long", "name":
+    "genres_Comedy, Fantasy, Horror", "required": true}, {"type": "long", "name":
+    "genres_Comedy, Fantasy, Musical", "required": true}, {"type": "long", "name":
+    "genres_Comedy, Fantasy, Romance", "required": true}, {"type": "long", "name":
+    "genres_Comedy, Game-Show", "required": true}, {"type": "long", "name": "genres_Comedy,
+    History, War", "required": true}, {"type": "long", "name": "genres_Comedy, Horror",
+    "required": true}, {"type": "long", "name": "genres_Comedy, Music", "required":
+    true}, {"type": "long", "name": "genres_Comedy, Music, Musical", "required": true},
+    {"type": "long", "name": "genres_Comedy, Music, Talk-Show", "required": true},
+    {"type": "long", "name": "genres_Comedy, Musical, Sci-Fi", "required": true},
+    {"type": "long", "name": "genres_Comedy, Mystery, Romance", "required": true},
+    {"type": "long", "name": "genres_Comedy, News", "required": true}, {"type": "long",
+    "name": "genres_Comedy, News, Talk-Show", "required": true}, {"type": "long",
+    "name": "genres_Comedy, Reality-TV", "required": true}, {"type": "long", "name":
+    "genres_Comedy, Romance", "required": true}, {"type": "long", "name": "genres_Comedy,
+    Sci-Fi", "required": true}, {"type": "long", "name": "genres_Comedy, Short", "required":
+    true}, {"type": "long", "name": "genres_Comedy, Sport", "required": true}, {"type":
+    "long", "name": "genres_Comedy, Sport, Talk-Show", "required": true}, {"type":
+    "long", "name": "genres_Comedy, Talk-Show", "required": true}, {"type": "long",
+    "name": "genres_Comedy, War", "required": true}, {"type": "long", "name": "genres_Crime",
+    "required": true}, {"type": "long", "name": "genres_Crime, Documentary", "required":
+    true}, {"type": "long", "name": "genres_Crime, Documentary, Mystery", "required":
+    true}, {"type": "long", "name": "genres_Crime, Drama", "required": true}, {"type":
+    "long", "name": "genres_Crime, Drama, Fantasy", "required": true}, {"type": "long",
+    "name": "genres_Crime, Drama, History", "required": true}, {"type": "long", "name":
+    "genres_Crime, Drama, Horror", "required": true}, {"type": "long", "name": "genres_Crime,
+    Drama, Mystery", "required": true}, {"type": "long", "name": "genres_Crime, Drama,
+    Romance", "required": true}, {"type": "long", "name": "genres_Crime, Drama, Thriller",
+    "required": true}, {"type": "long", "name": "genres_Crime, Mystery, Romance",
+    "required": true}, {"type": "long", "name": "genres_Crime, Mystery, Thriller",
+    "required": true}, {"type": "long", "name": "genres_Crime, Thriller", "required":
+    true}, {"type": "long", "name": "genres_Documentary", "required": true}, {"type":
+    "long", "name": "genres_Documentary, Drama, History", "required": true}, {"type":
+    "long", "name": "genres_Documentary, Family", "required": true}, {"type": "long",
+    "name": "genres_Documentary, History, War", "required": true}, {"type": "long",
+    "name": "genres_Documentary, Music", "required": true}, {"type": "long", "name":
+    "genres_Documentary, Mystery, Reality-TV", "required": true}, {"type": "long",
+    "name": "genres_Documentary, Short", "required": true}, {"type": "long", "name":
+    "genres_Documentary, Sport", "required": true}, {"type": "long", "name": "genres_Drama",
+    "required": true}, {"type": "long", "name": "genres_Drama, Family", "required":
+    true}, {"type": "long", "name": "genres_Drama, Family, Romance", "required": true},
+    {"type": "long", "name": "genres_Drama, Fantasy", "required": true}, {"type":
+    "long", "name": "genres_Drama, Fantasy, Horror", "required": true}, {"type": "long",
+    "name": "genres_Drama, Fantasy, Mystery", "required": true}, {"type": "long",
+    "name": "genres_Drama, Fantasy, Romance", "required": true}, {"type": "long",
+    "name": "genres_Drama, History", "required": true}, {"type": "long", "name": "genres_Drama,
+    History, Romance", "required": true}, {"type": "long", "name": "genres_Drama,
+    History, Thriller", "required": true}, {"type": "long", "name": "genres_Drama,
+    History, War", "required": true}, {"type": "long", "name": "genres_Drama, Horror,
+    Mystery", "required": true}, {"type": "long", "name": "genres_Drama, Horror, Sci-Fi",
+    "required": true}, {"type": "long", "name": "genres_Drama, Horror, Thriller",
+    "required": true}, {"type": "long", "name": "genres_Drama, Music", "required":
+    true}, {"type": "long", "name": "genres_Drama, Music, Musical", "required": true},
+    {"type": "long", "name": "genres_Drama, Music, Romance", "required": true}, {"type":
+    "long", "name": "genres_Drama, Mystery", "required": true}, {"type": "long", "name":
+    "genres_Drama, Mystery, Romance", "required": true}, {"type": "long", "name":
+    "genres_Drama, Mystery, Sci-Fi", "required": true}, {"type": "long", "name": "genres_Drama,
+    Mystery, Thriller", "required": true}, {"type": "long", "name": "genres_Drama,
+    Romance", "required": true}, {"type": "long", "name": "genres_Drama, Romance,
+    Thriller", "required": true}, {"type": "long", "name": "genres_Drama, Sci-Fi",
+    "required": true}, {"type": "long", "name": "genres_Drama, Sci-Fi, Thriller",
+    "required": true}, {"type": "long", "name": "genres_Drama, Sport", "required":
+    true}, {"type": "long", "name": "genres_Drama, Thriller", "required": true}, {"type":
+    "long", "name": "genres_Drama, War", "required": true}, {"type": "long", "name":
+    "genres_Drama, Western", "required": true}, {"type": "long", "name": "genres_Fantasy,
+    Mystery, Romance", "required": true}, {"type": "long", "name": "genres_Fantasy,
+    War", "required": true}, {"type": "long", "name": "genres_Game-Show, Reality-TV",
+    "required": true}, {"type": "long", "name": "genres_Reality-TV", "required": true},
+    {"type": "long", "name": "genres_Thriller", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-11-26 11:08:25.401293'

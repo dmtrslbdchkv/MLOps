@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dmitry/projects/python/MLOps/mlruns/0/f4e6bb3482594f029c88f2d38e500c89/artifacts
+end_time: 1732612750264
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4e6bb3482594f029c88f2d38e500c89
+run_name: marvelous-cod-891
+run_uuid: f4e6bb3482594f029c88f2d38e500c89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732612749434
+status: 4
+tags: []
+user_id: dmitry

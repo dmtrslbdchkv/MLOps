@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dmitry/projects/python/MLOps/mlruns/0/92421f6675df453eae69238c9fecbfde/artifacts
+end_time: 1732612277207
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92421f6675df453eae69238c9fecbfde
+run_name: resilient-croc-974
+run_uuid: 92421f6675df453eae69238c9fecbfde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732612277202
+status: 4
+tags: []
+user_id: dmitry

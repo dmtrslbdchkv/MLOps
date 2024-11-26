@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dmitry/projects/python/MLOps/mlruns/0/31d71487da784316be3273f7d4d4bc73/artifacts
+end_time: 1732611243342
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31d71487da784316be3273f7d4d4bc73
+run_name: sincere-flea-374
+run_uuid: 31d71487da784316be3273f7d4d4bc73
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732611243337
+status: 4
+tags: []
+user_id: dmitry
