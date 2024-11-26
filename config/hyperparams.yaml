@@ -1,6 +1,5 @@
 grid_search:
   DecisionTreeRegressor:
-    criterion: [ 'squared_error', 'friedman_mse', 'absolute_error', 'poisson' ]
-    max_depth: [ 5, 10, 15, 20 ]
-    min_samples_split: [ 2, 4, 5, 7, 9 ]
-    min_samples_leaf: [ 1, 2, 4, 5, 6 ]
+    max_depth: [5, 10, 15, 20]
+    min_samples_split: [2, 4, 5, 7, 9]
+    min_samples_leaf: [1, 2, 4, 5, 6]

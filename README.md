@@ -7,7 +7,7 @@
 
 1. Установить зависимости через Poetry:
    ```bash
-   poetry install
+   poetry install --no-root
    ```
 2. Запустить контейнер Docker с minio:
    ```bash
@@ -15,7 +15,7 @@
    ```
 3. Установить права доступа:
    ```bash
-   chmod +x src/shell/*.sh pipeline.sh
+   chmod +x src/modeling/shell/*.sh pipeline.sh preparation.sh src/shell/*.sh full_pipeline.sh
    ```
 4. Установка pre-commit:
    ```bash
@@ -24,5 +24,5 @@
    
 5. Запустить pipeline.sh:
    ```bash
-   ./pipeline.sh
+   ./pipeline_train.sh
    ```
